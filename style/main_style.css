@@ -1,8 +1,9 @@
 body
 {
-    width:1280px;
+    max-width: 100%;
     margin:0px auto;
     padding:0px;
+    background-color: rgb(234, 246, 247);
 }
 /* template */
 .horizontal_ul
@@ -25,10 +26,11 @@ body
 /*top*/
 .top
 {
+    max-width:1280px;
     display: flex;
     justify-content: space-between;
     padding: 0px;
-    margin:0px;
+    margin: auto;
     width: 100%;
     height: auto;
 }
@@ -44,17 +46,23 @@ body
 
 .school_logo
 {
-    margin-left:30px;
-    padding-top: 15px; 
+    margin-top:15px;
+    margin-left:0px;
     width: 70%;
+    
 }
 
 .top_menu
 {
+    font-family:Microsoft JhengHei;
+    font-weight: bold;
     text-align: end;
-    margin-right: 30px;
 }
-
+.topline{
+    height: 14px;
+    width: 1px;
+    background:#003377;
+}
 .top_ul
 {
     margin-bottom: 0px;
@@ -71,55 +79,56 @@ body
     height: 100%;
 }
 
-.top_ul div
-{
-    width: 90px;
-    height: 25px;
-    border: 1px black solid;
-    border-bottom-width: 2px;
-    border-right-width: 2px;
-    background-color:azure;
-    text-align: center;
-    margin-right: -5px;
-}
 
-.top_item_language ul div
+.top_item_language ul 
 {
-    width: 80px;
-    height: 25px;
-    border: 2px black solid;
-    background-color:azure;
-    text-align: center;
-    margin-right: 10px;
+    margin-top:20px;
+    margin-right: 0px;
 }
 .top_item_language ul div li a
 {
-    font-size: 18px;
-    font-weight: bold;
+    color: #003377;
+    font-size: 14px;   
 }
-.top_ul div:hover
+.top_item_language ul div li a:hover
 {
-    background-color:rgba(57, 221, 221, 0.842);
+    color: #000000;
 }
+.top_item_menu ul div li a{
+    color: #000000;
+    margin-top:5px; 
+    font-size: 16px;
+    padding-right: 25px;   
+}
+.top_item_menu ul div li a:hover
+{
+    color: #003377;
+}
+
+
+
 /* main_img */
 .main_img
 {
-    width: 100%;
+    width:1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
     height: 600px;
 }
 /* main_article */
 .main
 {
+    max-width:1280px;
+    margin: auto;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-top:-4px;
-    background-color: rgb(234, 246, 247);
 }
 .main_article
 {
     display: flex;
     justify-content: space-between;
-    margin:0px 60px;
+    margin:0px 0px;
     
     
 }
@@ -136,22 +145,25 @@ body
 .main_left_content
 {
     height: 620px;
-    border: 2px black solid;
+    width: 1100px;
+    background-color:rgb(208, 240, 255);
 }
 .main_left_ul
 {
     margin: 0px;
-    margin-left: 30px;
+    width: 1100px;
+    background-color:rgb(181, 232, 255);
 }
 .main_left_ul div
 {
-    width: 70px;
-    height: 25px;
-    border: 1px black solid;
-    border-bottom-width: 2px;
-    background-color:rgb(208, 240, 255);
+    width: 90px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 2px;
+    font-family:Microsoft JhengHei;
+    padding-right: 25px; 
+    font-weight: bold;
     text-align: center;
-    margin: -2px;
 }
 .main_left_ul div:hover
 {
@@ -159,14 +171,13 @@ body
 }
 .main_right
 {
-    width: 30%;
     text-align: end;
 }
 .main_right_ul
 {
     list-style: none;
     margin: 0px;
-    margin-top: 21px;
+    margin-top: 30px;
 }
 .main_right_ul li
 {
