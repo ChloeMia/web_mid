@@ -148,6 +148,43 @@ body
     width: 1100px;
     background-color:rgb(208, 240, 255);
 }
+.main_left_content_table
+{
+    width: 100%;
+    border-collapse:collapse;
+    display: none;
+    text-align: left;
+    height: 620px;
+    
+}
+#div_allnew
+{
+    background-color: rgb(56, 187, 248);
+}
+#allnew
+{
+    display: table;
+}
+.main_left_content_table tr td
+{
+    border-bottom: 1px rgb(91, 196, 245) solid;
+    font-size: 25px;
+}
+
+.main_left_content_table th
+{
+    border-bottom: 2px rgb(134, 212, 248) solid;
+    
+}
+
+.main_left_content_table_day
+{
+    width: 20%;
+}
+.main_left_content_table_title
+{
+    width: 70%;
+}
 .main_left_ul
 {
     margin: 0px;
@@ -159,11 +196,12 @@ body
     width: 90px;
     height: 30px;
     font-size: 18px;
-    margin-top: 2px;
+    padding-top: 2px;
     font-family:Microsoft JhengHei;
     padding-right: 25px; 
     font-weight: bold;
     text-align: center;
+    background-color:  rgb(167, 226, 253);
 }
 .main_left_ul div:hover
 {
