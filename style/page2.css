@@ -157,11 +157,16 @@ body
     font-family:Microsoft JhengHei;
     font-weight: bold;
     background-color: rgb(234, 246, 247);
+    outline: none;
 }
 
-#first_button
+#button1
 {
-    background-color: rgb(80, 219, 231);
+    background-color: rgb(66, 211, 224);
+}
+#button1_t
+{
+    display: block;
 }
 .main_text_right
 {
