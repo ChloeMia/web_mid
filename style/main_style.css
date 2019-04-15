@@ -42,7 +42,6 @@ body
 .school_logo
 {
     display: block;
-    margin-top:15px;
     margin-left:0px;
     width: 70%;
     margin-top:13px;
@@ -60,8 +59,7 @@ body
 {
     text-align: end;
     margin-top:13px;
-    
-    margin-bottom:30px;
+    margin-bottom:20px;
 }
 .top_item_language ul li a
 {
@@ -78,23 +76,11 @@ body
 }
 .top_item_menu
 {
-    background: #003377;
     text-align: end;
 }
-
-.top_item_menu ul li a{
-    display:block;
-    float:left;
-    font-family:Microsoft JhengHei;
-    font-size: 22px;
-    font-weight: bold;
-    color: #000000;
-    height:30px;
-    width: 100px;
-    text-align: center;
-}
-.top_item_menu ul li a:hover{
-    color: #003377;
+.top_item_menu ul{
+    margin-top: 0px;
+    transition:margin 0.5s;
 }
 
 .top_item_menu ul li ul{
@@ -102,20 +88,66 @@ body
     width:100px;
     overflow:visible;
     clear:left;
-    margin-top: 30px;
-}
-.top_item_menu ul li ul 
-{
     visibility:hidden;
-    
+    margin: 20px 0px 0px -20px;
 }
-.top_item_menu ul li ul li 
-{
-    background: #003377;
+
+
+.top_item_menu ul li a{
+    display:block;
+    float:left;
+    font-family:Microsoft JhengHei;
+    font-size: 20px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #000000;
+    height:30px;
+    width: 100px;
 }
+
+.top_item_menu ul li ul li a{
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    background: rgb(234, 246, 247);
+    float :none;
+    text-align: left;
+    font-family:Microsoft JhengHei;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.list_line{
+    margin: 0px 0px 0px 0px;
+    width: 110px;
+    height: 5px;
+    background: rgb(90, 194, 204);
+}
+
+
 .top_item_menu li:hover ul {
+    margin: 30px 0px 0px -20px;
     visibility:visible;
 }
+.top_item_menu li:hover a{
+    color: #003377;
+}
+.top_item_menu li:hover ul li a{
+    color: #000000;
+}
+
+.top_item_menu ul li ul li:hover a{
+    background: rgb(191, 245, 250);
+
+}
+
+.top_item_menu ul li ul li{
+    float :none;
+}
+
+
+
+
 
 .top_ul
 {
