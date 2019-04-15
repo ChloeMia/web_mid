@@ -14,7 +14,7 @@ function changeColorClick(id,id2)
     var x = document.getElementById(id);
     var y = document.getElementById(id2);
     x.style.backgroundColor = clickAfter;
-    y.style.display = "none";
+    y.style.display = "block";
 
 }
 function changeColorOver(id)
