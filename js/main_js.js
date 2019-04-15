@@ -1,6 +1,6 @@
 var alltitle = ["allnew","notice","speech","contest"];
 var alldiv = ["div_allnew","div_notice","div_speech","div_contest"];
-function change(id,x)
+function change(id)
 {
     for (var i = 0; i < alltitle.length; i++) {
         var tab = document.getElementById(alltitle[i]);

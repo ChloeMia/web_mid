@@ -130,11 +130,15 @@ body
 }
 
 /*main*/
+.main
+{
+    height: auto;
+}
 .main_text{
     margin-top : 40px;
     display: flex;
     justify-content: space-between;
-    height: 1000px;
+    height: auto;
 }
 .main_text_left_buttom
 {
@@ -155,10 +159,15 @@ body
     background-color: rgb(234, 246, 247);
 }
 
+#first_button
+{
+    background-color: rgb(80, 219, 231);
+}
 .main_text_right
 {
     width: 80%;
     background-color: rgb(234, 246, 247);
+    display:none;
 }
 .main_text_right_title
 {
