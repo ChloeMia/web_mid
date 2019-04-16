@@ -44,7 +44,7 @@ function init()
     }
     if(localStorage["arm"] == null)
 	{
-        localStorage["arm"] = "1";
+        localStorage["arm"] = "0";
     }
     changeColorClick(allbutton[localStorage["arm"]],alltext[localStorage["arm"]]);
 	localStorage.removeItem("arm");
