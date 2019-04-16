@@ -2,6 +2,7 @@
 .main{
     max-width:1280px;
     margin: auto;
+    
 }
 .main_title
 {
@@ -26,7 +27,7 @@
 .main
 {
     width: 1280px;
-    height: auto;
+    height: 100%;
 }
 .main_text{
     margin-top : 40px;
@@ -38,6 +39,7 @@
 {
     width: 12%;
     background-color: rgb(234, 246, 247);
+    height: 100%;
 }
 
 .main_text_left_buttom input
@@ -75,19 +77,4 @@
     font-family:Microsoft JhengHei;
     font-weight: bold;
     color:#000000;
-}
-/* bottom */
-.bottom
-{
-    margin: 0px;
-    text-align: center;
-    font-size: 15px;
-    
-    border-top: 1px black solid;
-    background-color: rgb(219, 247, 250);
-}
-.bottom p
-{
-    margin: 0px;
-    line-height: 30px;
 }

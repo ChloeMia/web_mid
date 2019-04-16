@@ -38,6 +38,15 @@ function liclick(node)
 }
 function init()
 {
+	if(localStorage["arm"] == "-1")
+	{
+        return;
+    }
+    if(localStorage["arm"] == null)
+	{
+        localStorage["arm"] = "1";
+    }
     changeColorClick(allbutton[localStorage["arm"]],alltext[localStorage["arm"]]);
+	localStorage.removeItem("arm");
 }
 init();
