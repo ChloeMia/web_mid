@@ -12,7 +12,7 @@
     <body>
         <div class="top">
             <div class="top_item">
-                <img class="school_logo" src="../img/ntut.png" alt="school_logo" />
+                <a href="./index.html"><img class="school_logo" src="../img/ntut.png" alt="school_logo" /></a>
             </div>
 
             <div class="top_item">
@@ -26,12 +26,13 @@
 
                 <div class="top_item_menu top_menu">
                     <ul class="top_ul horizontal_ul">
-                        <li><a href="./page2.html">學系介紹</a>
+                        <li><a id="0" href="page2.html"
+                            onclick="liclick(this)">學系介紹</a>
                         <ul>
                             <div class="list_line"></div>
-                            <li><a href="">沿革與現況</a></li>
-                            <li><a href="">發展特色</a></li>
-                            <li><a href="">教育目標</a></li>
+                            <li><a id="0" href="page2.html" onclick="liclick(this)">沿革與現況</a></li>
+                            <li><a id="1" href="page2.html" onclick="liclick(this)">發展特色</a></li>
+                            <li><a id="2" href="page2.html" onclick="liclick(this)">教育目標</a></li>
                         </ul>
                         </li>
                         <li><a href="./page3.html">師資介紹</a>
@@ -69,7 +70,8 @@
             </div>
 
         </div>
-
+        
+        <hr color="black" size="1" class="top_line">
         <div>
 
             <p>學系介紹</p>
@@ -153,4 +155,5 @@
 
         </div>
     </body>
+    <script src="../js/common.js"></script>
 </html>

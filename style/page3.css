@@ -1,4 +1,3 @@
-
 /*main*/
 .main{
     max-width:1280px;
@@ -24,11 +23,15 @@
 }
 
 /*main*/
+.main
+{
+    height: auto;
+}
 .main_text{
     margin-top : 40px;
     display: flex;
     justify-content: space-between;
-    height: 1000px;
+    height: auto;
 }
 .main_text_left_buttom
 {
@@ -47,12 +50,22 @@
     font-family:Microsoft JhengHei;
     font-weight: bold;
     background-color: rgb(234, 246, 247);
+    outline: none;
 }
 
+#button1
+{
+    background-color: rgb(66, 211, 224);
+}
+#button1_t
+{
+    display: block;
+}
 .main_text_right
 {
     width: 80%;
     background-color: rgb(234, 246, 247);
+    display:none;
 }
 .main_text_right_title
 {
