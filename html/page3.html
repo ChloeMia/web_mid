@@ -10,6 +10,7 @@
 
 <html>
     <body>
+
         <div class="top">
             <div class="top_item">
                 <a id="-1" href="./index.html" onclick="liclick(this)"><img class="school_logo" src="../img/ntut.png" alt="school_logo" /></a>
@@ -26,45 +27,43 @@
 
                 <div class="top_item_menu top_menu">
                     <ul class="top_ul horizontal_ul">
-                        <li><a id="0" href="page2.html"
-                                onclick="liclick(this)">學系介紹</a>
+                        <li><a id="0" href="page2.html">學系介紹</a>
                             <ul>
                                 <div class="list_line"></div>
-                                <li><a id="0" href="page2.html"
-                                        onclick="liclick(this)">沿革與現況</a></li>
-                                <li><a id="1" href="page2.html"
-                                        onclick="liclick(this)">發展特色</a></li>
-                                <li><a id="2" href="page2.html"
-                                        onclick="liclick(this)">教育目標</a></li>
+                                <li><a id="0" href="page2.html">沿革與現況</a></li>
+                                <li><a id="1" href="page2.html">發展特色</a></li>
+                                <li><a id="2" href="page2.html">教育目標</a></li>
                             </ul>
                         </li>
-                        <li><a href="./page3.html">師資介紹</a>
+                        <li><a id="0" href="page3.html"
+                        onclick="liclick(this)">師資介紹</a>
+                            <ul>
+                                <div class="list_line"></div>
+                                <li><a id="0" href="page3.html"
+                                    onclick="liclick(this)">專任教師</a></li>
+                                <li><a id="1" href="page3.html"
+                                    onclick="liclick(this)">兼任教師</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="page4.html">課程資訊</a>
 
                             <ul>
                                 <div class="list_line"></div>
-                                <li><a href="">專任教師</a></li>
-                                <li><a href="">兼職教師</a></li>
+                                <li><a href="page4.html">大學部</a></li>
+                                <li><a href="page4.html">碩士班</a></li>
+                                <li><a href="page4.html">博士班</a></li>
                             </ul>
                         </li>
-                        <li><a href="./page4.html">課程資訊</a>
+                        <li><a href="page5.html">招生資訊</a>
 
                             <ul>
                                 <div class="list_line"></div>
-                                <li><a href="">大學部</a></li>
-                                <li><a href="">碩士班</a></li>
-                                <li><a href="">博士班</a></li>
+                                <li><a href="page5.html">大學部</a></li>
+                                <li><a href="page5.html">碩士班</a></li>
+                                <li><a href="page5.html">博士班</a></li>
                             </ul>
                         </li>
-                        <li><a href="./page5.html">招生資訊</a>
-
-                            <ul>
-                                <div class="list_line"></div>
-                                <li><a href="">大學部</a></li>
-                                <li><a href="">碩士班</a></li>
-                                <li><a href="">博士班</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="./page6.html">期中說明</a></li>
+                        <li><a href="page6.html">期中說明</a></li>
                     </ul>
                 </div>
 
@@ -73,38 +72,548 @@
             </div>
 
         </div>
-
         <hr color="black" size="1" class="top_line">
         <div class="main">
-            <div class="main_title">
-                <div class="main_title_text">
-                    <p>學系介紹</p>
-                </div>
-                <div class="main_title_line"></div>
-            </div>
-            <div class= main_text>
-
-                <div class= main_text_left_buttom>
-                    <input type="button" value="沿革與現況">
-                    <input type="button" value="發展特色">
-                    <input type="button" value="教育目標">
-                </div>
-
-                <div class= main_text_right>
-
-                    <div class= main_text_right_title>
-                        <p>沿革與現況</p>
+                <div class="main_title">
+                    <div class="main_title_text">
+                        <p>學系介紹</p>
                     </div>
-                    <div class=main_text_right_text>
-                        <p>
-                        </p>
+                    <div class="main_title_line"></div>
+                </div>
+                <div class= main_text>
+                    <div class= main_text_left_buttom>
+                        <input id="button1" type="button" value="專任教師"
+                            onclick="changeColorClick('button1','button1_t')"
+                            onmouseover="changeColorOver('button1')"
+                            onmouseout="changeColorOut('button1')">
+                        <input id="button2" type="button" value="兼任教師"
+                            onclick="changeColorClick('button2','button2_t')"
+                            onmouseover="changeColorOver('button2')"
+                            onmouseout="changeColorOut('button2')">
                     </div>
+                    <div class= main_text_right id="button1_t">
+                        <div class= main_text_right_title>
+                            <p>專任師資介紹</p>
+                        </div>
+                        <div class=main_text_right_text>
+                            <p>
+                                <img src="../img/teacher1.png" style="float:left">
+                                <div class= main_text_right_text_text>
+                                    <div class =main_text_right_text_text_name >
+                                        <a>
+                                            吳和庭  教授兼系主任<br>
+                                            <p>
+                                                最高學歷： 美國加州大學洛杉磯分校 電機博士<br>
+                                                研 究 室： 科研大樓1528室<br>
+                                                聯絡資訊： 分機4221<br> 
+                                                Email:  htwu@csie.ntut.edu.tw<br>
+                                                專長領域： 網路協定設計、通訊網路模擬、多媒體網路系統、網路效能評估
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </p>
+                            <br>
+                            <hr>
+                            <br>
+    
+                            <p>
+                                <img src="../img/teacher2.jpg" style="float:left">
+                                <div class= main_text_right_text_text>
+                                        <div class =main_text_right_text_text_name >
+                                            <a>
+                                楊士萱  教授<br>
+                                <p>
+                                最高學歷： 美國密西根大學 電機與計算機科學博士<br>
+                                研 究 室： 科研大樓1525室<br>
+                                聯絡資訊： 分機4211<br> 
+                                Email:  shyang@csie.ntut.edu.tw<br>
+                                專長領域： 影像與視訊編碼、視訊傳輸與錯誤保護、智慧聯網電視
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                            </p>
+                            <br>
+                            <hr>
+                            <br>
 
+                            <p>
+                                <img src="../img/teacher3.jpg" style="float:left">
+                                <div class= main_text_right_text_text>
+                                        <div class =main_text_right_text_text_name >
+                                            <a>
+                                鄭有進  教授<br>
+                                <p>
+                                最高學歷： 美國奧克拉荷馬大學 計算機科學博士<br> 
+                                研 究 室： 科研大樓1531室<br> 
+                                聯絡資訊： 分機4232<br> 
+                                Email:  yccheng@csie.ntut.edu.tw<br>
+                                專長領域： 軟體工程、人工智慧、程式設計
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                            </p>
+                            <br>
+                            <hr>
+                            <br>
 
+                            <p>
+                                <img src="../img/teacher4.jpg" style="float:left">
+                                <div class= main_text_right_text_text>
+                                        <div class =main_text_right_text_text_name >
+                                            <a>
+                                楊士萱  教授<br>
+                                <p>
+                                最高學歷： 美國密西根大學 電機與計算機科學博士<br>
+                                研 究 室： 科研大樓1525室<br>
+                                聯絡資訊： 分機4211<br> 
+                                Email:  shyang@csie.ntut.edu.tw<br>
+                                專長領域： 影像與視訊編碼、視訊傳輸與錯誤保護、智慧聯網電視
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                            </p>
+                            <br>
+                            <hr>
+                            <br>
 
+                            <p>
+                                <img src="../img/teacher5.png" style="float:left">
+                                <div class= main_text_right_text_text>
+                                        <div class =main_text_right_text_text_name >
+                                            <a>
+                                陳英一  教授<br> 
+                                <p>
+                                最高學歷： 美國亞歷桑納大學 電機與計算機工程博士<br> 
+                                研 究 室： 科研大樓1626室<br> 
+                                聯絡資訊： 分機4235<br> 
+                                Email:  ichen@csie.ntut.edu.tw<br>
+                                專長領域： 雲端技術與應用、服務導向架構設計、行動應用軟體開發技術
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                            </p>
+                            <br>
+                            <hr>
+                            <br>
+
+                            <p>
+                                <img src="../img/teacher6.jpg" style="float:left">  
+                                <div class= main_text_right_text_text>
+                                        <div class =main_text_right_text_text_name >
+                                            <a>                            
+                                柯開維  教授<br> 
+                                <p>
+                                最高學歷： 美國喬治亞理工學院電機與計算機工程博士<br> 
+                                研 究 室： 科研大樓1526室<br>
+                                聯絡資訊： 分機4233<br> 
+                                Email:  kwk@csie.ntut.edu.tw<br>
+                                專長領域： 通訊網路資源配置與路由、無線感測網路與電力線通訊、RFID定位追蹤
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                            </p>
+                            <br>
+                            <hr>
+                            <br>
+
+                            <p>
+                                <img src="../img/teacher7.jpg" style="float:left">
+                                <div class= main_text_right_text_text>
+                                        <div class =main_text_right_text_text_name >
+                                            <a>               
+                                陳偉凱  教授<br>
+                                <p>
+                                最高學歷： 美國北卡州立大學 計算機工程博士<br> 
+                                研 究 室： 科研大樓1523室<br> 
+                                聯絡資訊： 分機4230<br> 
+                                Email:  wkc@csie.ntut.edu.tw<br>
+                                專長領域： 軟體工程、軟體測試、軟體開發
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                            </p>
+                            <br>
+                            <hr>
+                            <br>
+
+                             <p>
+                                <img src="../img/teacher8.jpg" style="float:left">  
+                                <div class= main_text_right_text_text>
+                                        <div class =main_text_right_text_text_name >
+                                            <a>                                                   
+                                尤信程  教授<br> 
+                                <p>
+                                最高學歷： 美國加州大學戴維斯分校 電機與計算機科學博士<br> 
+                                研 究 室： 科研大樓1533室<br> 
+                                聯絡資訊： 分機4234、分機4201<br> 
+                                Email:  you@csie.ntut.edu.tw<br>
+                                專長領域： 音訊識別及處理、無線通道估測、數位訊號處理應用
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                            </p>
+                            <br>
+                            <hr>
+                            <br>
+
+                            <p>
+                                <img src="../img/teacher9.png" style="float:left">           
+                                <div class= main_text_right_text_text>
+                                        <div class =main_text_right_text_text_name >
+                                            <a>        
+                                謝金雲  教授<br> 
+                                <p>
+                                最高學歷： 美國奧克拉荷馬大學 計算機科學博士<br> 
+                                研 究 室： 科研大樓1529室<br> 
+                                聯絡資訊： 分機4231<br> 
+                                Email:  hsieh@csie.ntut.edu.tw<br>
+                                專長領域： 軟體工程、樣式語言、物件導向設計
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                            </p>
+                            <br>
+                            <hr>
+                            <br>
+
+                            <p>
+                                <img src="../img/teacher10.png" style="float:left">  
+                                <div class= main_text_right_text_text>
+                                        <div class =main_text_right_text_text_name >
+                                            <a>                                       
+                                劉傳銘  教授<br>
+                                <p> 
+                                最高學歷： 美國普渡大學 計算機科學博士<br> 
+                                研 究 室： 科研大樓1530室<br> 
+                                聯絡資訊： 分機4251<br> 
+                                Email:  cmliu@csie.ntut.edu.tw<br>
+                                專長領域： 新興計算環境下資料管理、空間資料管理、平行與分散式計算
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                            </p>
+                            <br>
+                            <hr>
+                            <br>
+
+                            <p>
+                                <img src="../img/teacher11.png" style="float:left">           
+                                <div class= main_text_right_text_text>
+                                        <div class =main_text_right_text_text_name >
+                                            <a>                                                                  
+                                陳彥霖  教授<br> 
+                                <p>
+                                最高學歷： 國立交通大學 電機工程博士<br>
+                                研 究 室： 科研大樓1522室<br> 
+                                聯絡資訊： 分機4239<br> 
+                                Email:  ylchen@csie.ntut.edu.tw<br>
+                                專長領域： 智慧影像分析、嵌入式與穿戴式視覺技術、自然人機互動、車載及視覺伺服系統
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                            </p>
+                            <br>
+                            <hr>
+                            <br>
+
+                            <p>
+                                <img src="../img/teacher12.png" style="float:left">           
+                                <div class= main_text_right_text_text>
+                                        <div class =main_text_right_text_text_name >
+                                            <a>                           
+                                郭忠義  教授<br> 
+                                <p>
+                                最高學歷： 國立中央大學 資訊工程博士<br>
+                                研 究 室： 科研大樓1532室<br> 
+                                聯絡資訊： 分機4237<br> 
+                                Email:  jykuo@csie.ntut.edu.tw<br>
+                                專長領域： 軟體工程、智慧型系統、物件導向設計、雲端運算
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                            </p>
+                            <br>
+                            <hr>
+                            <br>
+
+                            <p>
+                                <img src="../img/teacher13.png" style="float:left">       
+                                <div class= main_text_right_text_text>
+                                        <div class =main_text_right_text_text_name >
+                                            <a>                                    
+                                白敦文  教授<br> 
+                                <p>
+                                最高學歷： 美國杜克大學電機與計算機工程博士<br> 
+                                研 究 室： 科研大樓336室<br> 
+                                聯絡資訊： 分機4222<br> 
+                                Email:  twp@csie.ntut.edu.tw<br>
+                                專長領域： 生物資訊、醫學資訊、影像分析、圖形辨識
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                            </p>
+                            <br>
+                            <hr>
+                            <br>
+
+                            <p>
+                                <img src="../img/teacher14.png" style="float:left">     
+                                <div class= main_text_right_text_text>
+                                        <div class =main_text_right_text_text_name >
+                                            <a>                                          
+                                張厥煒  副教授<br>
+                                <p> 
+                                最高學歷： 交通大學 資訊工程博士<br> 
+                                研 究 室： 科研大樓1524室<br> 
+                                聯絡資訊： 分機4241<br> 
+                                Email:  cwchang@csie.ntut.edu.tw<br>
+                                專長領域： 數位影像處理、深度感測器動作與擷取分析、視覺化多媒體系統
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                            </p>
+                            <br>
+                            <hr>
+                            <br>
+
+                            <p>
+                                <img src="../img/teacher15.jpg" style="float:left">     
+                                <div class= main_text_right_text_text>
+                                        <div class =main_text_right_text_text_name >
+                                            <a>                                            
+                                謝東儒  副教授<br> 
+                                <p>
+                                最高學歷： 美國加州大學爾灣分校 電機與計算機工程博士<br> 
+                                研 究 室： 科研大樓1535室<br> 
+                                聯絡資訊： 分機4242<br> 
+                                Email:  tjh@csie.ntut.edu.tw<br>
+                                專長領域： 電腦圖學
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                            </p>
+                            <br>
+                            <hr>
+                            <br>
+
+                            <p>
+                                <img src="../img/teacher16.jpg" style="float:left">    
+                                <div class= main_text_right_text_text>
+                                        <div class =main_text_right_text_text_name >
+                                            <a>                                        
+                                王正豪  副教授<br>
+                                <p> 
+                                最高學歷： 台灣大學 資訊工程博士<br> 
+                                研 究 室： 科研大樓1534室<br> 
+                                聯絡資訊： 分機4238<br> 
+                                Email:  tjh@csie.ntut.edu.tw<br>
+                                專長領域： 社群網路探勘、資訊安全、分散式系統、巨量資料分析
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                            </p>
+                            <br>
+                            <hr>
+                            <br>
+
+                            <p>
+                                <img src="../img/teacher17.jpg" style="float:left">           
+                                <div class= main_text_right_text_text>
+                                        <div class =main_text_right_text_text_name >
+                                            <a>                                                                  
+                                劉建宏  副教授<br> 
+                                <p>
+                                最高學歷： 美國德州大學阿靈頓分校 計算機科學博士<br> 
+                                研 究 室： 科研大樓1521室<br> 
+                                聯絡資訊： 分機4252<br> 
+                                Email:  cliu@csie.ntut.edu.tw<br>
+                                專長領域： 軟體工程、軟體測試、軟體開發
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                            </p>
+                            <br>
+                            <hr>
+                            <br>
+
+                            <p>
+                                <img src="../img/teacher18.png" style="float:left">     
+                                <div class= main_text_right_text_text>
+                                        <div class =main_text_right_text_text_name >
+                                            <a>                                         
+                                江佩穎  副教授<br> 
+                                <p>
+                                最高學歷： 美國南加州大學 計算機科學博士<br> 
+                                研 究 室： 科研大樓1625室<br> 
+                                聯絡資訊： 分機4236<br> 
+                                Email:  peiyingc@csie.ntut.edu.tw<br>
+                                專長領域： 電腦圖學、擴增實境、風格化繪圖、人機互動、手勢辨識
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                            </p>
+                            <br>
+                        </div>
+    
+                    </div>
+                    
+                    <div class= main_text_right id="button2_t">
+                        <table class="table table-borderless">
+                            <thead class="table-head">
+                                <tr>
+                                    <th class="text-center">
+                                        俞齊山
+                                    </th>
+                                    <th>
+                                        兼任教授
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="table-title text-center">
+                                        最高學歷：
+                                    </td>
+                                    <td class="table-content">
+                                        國立台灣大學電機工程博士
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-title text-center">
+                                        專長領域：
+                                    </td>
+                                    <td class="table-content">
+                                        行動裝置應用、互動裝置設計、互動媒體設計、人機介面設計、擴增實境應用
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-title text-center">
+                                        現　　職：
+                                    </td>
+                                    <td class="table-content">
+                                        國立臺北教育大學 數位科技設計學系教授
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-title text-center">
+                                        開設課程：
+                                    </td>
+                                    <td class="table-content">
+                                        網頁程式設計
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <thead class="table-head">
+                                <tr>
+                                    <th class="text-center">
+                                        陳達武
+                                    </th>
+                                    <th>
+                                        兼任副教授
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="table-title text-center">
+                                        最高學歷：
+                                    </td>
+                                    <td class="table-content">
+                                        美國愛荷華大學英語教育博士
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-title text-center">
+                                        專長領域：
+                                    </td>
+                                    <td class="table-content">
+                                        英語教學、英文閱讀教學、英文寫作教學
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-title text-center">
+                                        現　　職：
+                                    </td>
+                                    <td class="table-content">
+                                        國立空中大學 人文學系副教授
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-title text-center">
+                                        開設課程：
+                                    </td>
+                                    <td class="table-content">
+                                        英文科技論文寫作、科技英文
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <thead class="table-head">
+                                <tr>
+                                    <th class="text-center">
+                                        陳建村
+                                    </th>
+                                    <th>
+                                        兼任助理教授
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="table-title text-center">
+                                        最高學歷：
+                                    </td>
+                                    <td class="table-content">
+                                        台北科技大學機電所資工組博士
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-title text-center">
+                                        專長領域：
+                                    </td>
+                                    <td class="table-content">
+                                        敏捷方法、例外處理設計、軟體架構
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-title text-center">
+                                        現　　職：
+                                    </td>
+                                    <td class="table-content">
+                                        泰迪軟體科技有限公司 技術總監
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-title text-center">
+                                        開設課程：
+                                    </td>
+                                    <td class="table-content">
+                                        敏捷與精實軟體開發、軟體架構
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
                 </div>
             </div>
-        </div>
         <div class="bottom">
             <p>國立臺北科技大學·資訊工程學系 - NTUT Dept. of Computer Science &
                 InformationEngineering @2019
@@ -116,6 +625,7 @@
 
 
         </div>
+
     </body>
-    <script src="../js/common.js"></script>
+    <script src="../js/page3_js.js"></script>
 </html>

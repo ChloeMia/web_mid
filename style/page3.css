@@ -25,7 +25,8 @@
 /*main*/
 .main
 {
-    height: auto;
+    width: 1280px;
+    height: 100%;
 }
 .main_text{
     margin-top : 40px;
@@ -37,6 +38,7 @@
 {
     width: 12%;
     background-color: rgb(234, 246, 247);
+    height: 100%;
 }
 
 .main_text_left_buttom input
@@ -51,15 +53,7 @@
     font-weight: bold;
     background-color: rgb(234, 246, 247);
     outline: none;
-}
-
-#button1
-{
-    background-color: rgb(66, 211, 224);
-}
-#button1_t
-{
-    display: block;
+    transition-duration: 0.4s;
 }
 .main_text_right
 {
@@ -72,6 +66,7 @@
     text-align:center;
     font-size: 28px;
     font-family:Microsoft JhengHei;
+    margin-bottom: 50px;
     font-weight: bold;
     color:#000000;
 }
@@ -84,18 +79,37 @@
     font-weight: bold;
     color:#000000;
 }
-/* bottom */
-.bottom
+.main_text_right_text_text 
 {
-    margin: 0px;
-    text-align: center;
-    font-size: 15px;
-    
-    border-top: 1px black solid;
-    background-color: rgb(219, 247, 250);
+     
+    height: 150px;
+    margin-left: 180px;
+    margin-right: 20px;
 }
-.bottom p
+.main_text_right_text_text_name
 {
-    margin: 0px;
-    line-height: 30px;
+    padding-top: 55px;
+    text-align:center;
+    transition:all 1s;
+}
+.main_text_right_text_text_name a
+{
+    font-size: 22px;
+    
+}
+.main_text_right_text_text_name a p
+{
+    visibility: hidden;
+    font-size: 0px;
+    transition-delay:0.5s;
+}
+.main_text_right_text_text_name:hover
+{
+    padding-top: 0px;
+}
+.main_text_right_text_text_name:hover a p
+{
+    margin-top: 0px;
+    font-size: 16px;
+    visibility: visible;
 }
