@@ -59,7 +59,11 @@ body
 {
     text-align: end;
     margin-top:13px;
-    margin-bottom:20px;
+    margin-right: 10px;
+}
+.top_item_language ul{
+    margin-bottom:12px;
+    height: 30px;
 }
 .top_item_language ul li a
 {
@@ -67,12 +71,11 @@ body
     font-size: 14px;
     font-weight: bold;
     color: #003377;
-    
 }
 .top_item_language ul li a:hover
 {
+    font-size: 18px;
     color: #000000;
-    margin-top:0px;
 }
 .top_item_menu
 {
@@ -104,22 +107,23 @@ body
     height:30px;
     width: 100px;
 }
-
 .top_item_menu ul li ul li a{
-    width: 100px;
+    
+    padding-top: 13px;
+    padding-left: 10px;
+    width: 120px;
     height: 40px;
-    font-size: 16px;
     background: rgb(234, 246, 247);
     float :none;
     text-align: left;
     font-family:Microsoft JhengHei;
-    font-size: 16px;
-    margin-top: 0px;
+    border-bottom:1px rgb(194, 194, 194) solid;
+    font-size: 18px;
 }
 
 .list_line{
-    margin: 0px 0px 0px 0px;
-    width: 110px;
+    margin: 0px 0px -5px 0px;
+    width: 140px;
     height: 5px;
     background: rgb(90, 194, 204);
 }
@@ -138,7 +142,6 @@ body
 
 .top_item_menu ul li ul li:hover a{
     background: rgb(191, 245, 250);
-
 }
 
 .top_item_menu ul li ul li{
