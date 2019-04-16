@@ -20,7 +20,11 @@ function changeColorClick(id,id2)
 
 function changeColorOver(id)
 {   
-    for (var i = 0; i < allbutton.length; i++) {
+    var d = document.getElementById(id);
+    if(d.style.backgroundColor != clickAfter)
+        d.style.backgroundColor = hoverAfter;
+
+    /*for (var i = 0; i < allbutton.length; i++) {
         var d = document.getElementById(allbutton[i]);
         if(d.style.backgroundColor != clickAfter)
             d.style.backgroundColor = hoverBefore;
@@ -29,8 +33,15 @@ function changeColorOver(id)
     if(x.style.backgroundColor != clickAfter)
     {
         x.style.backgroundColor = hoverAfter;
+    }*/
+}
+function changeColorOut(id)
+{
+    for (var i = 0; i < allbutton.length; i++) {
+        var d = document.getElementById(allbutton[i]);
+        if(d.style.backgroundColor == hoverAfter)
+            d.style.backgroundColor = hoverBefore;
     }
-    
 }
 function liclick(node)
 {
