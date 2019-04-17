@@ -83,7 +83,7 @@
     border: 1px black solid;
     width: 100%;
     text-align: center;
-    background-color: white;
+    background-color: rgb(234, 246, 247);
 }
 .main_text_right_table_top th
 {
@@ -95,7 +95,7 @@
     border: 2px black solid;
     width: 100%;
     text-align: center;
-    background-color: white;
+    background-color: rgb(234, 246, 247);
 }
 .main_text_right_table_bottom th
 {
