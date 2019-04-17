@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+    <link rel="stylesheet" href="../style/common.css">  
     <link rel="stylesheet" href="../style/page4.css">
-    <link rel="stylesheet" href="../style/common.css">
+    
     <title>Document2</title>
 </head>
 
@@ -30,42 +30,41 @@
             </div>
 
             <div class="top_item_menu top_menu">
-                <ul class="top_ul horizontal_ul">
-                    <li><a id="0" href="page2.html">學系介紹</a>
+                    <ul class="top_ul horizontal_ul">
+                        <li><a id="0" href="page2.html"onclick="liclick(this)">學系介紹</a>
                         <ul>
                             <div class="list_line"></div>
-                            <li><a id="0" href="page2.html">沿革與現況</a></li>
-                            <li><a id="1" href="page2.html">發展特色</a></li>
-                            <li><a id="2" href="page2.html">教育目標</a></li>
+                            <li><a id="0" href="page2.html" onclick="liclick(this)">沿革與現況</a></li>
+                            <li><a id="1" href="page2.html" onclick="liclick(this)">發展特色</a></li>
+                            <li><a id="2" href="page2.html" onclick="liclick(this)">教育目標</a></li>
                         </ul>
-                    </li>
-                    <li><a id="0" href="page3.html" onclick="liclick(this)">師資介紹</a>
+                        </li>
+
+                        <li><a  id="0" href="./page3.html"onclick="liclick(this)">師資介紹</a>
                         <ul>
                             <div class="list_line"></div>
                             <li><a id="0" href="page3.html" onclick="liclick(this)">專任教師</a></li>
-                            <li><a id="1" href="page3.html" onclick="liclick(this)">兼任教師</a></li>
+                            <li><a id="1" href="page3.html" onclick="liclick(this)">兼職教師</a></li>
                         </ul>
-                    </li>
-                    <li><a href="page4.html">課程資訊</a>
+                        </li>
 
+                        <li><a  id="0" href="./page4.html"onclick="liclick(this)">課程資訊</a>
                         <ul>
                             <div class="list_line"></div>
-                            <li><a href="page4.html">大學部</a></li>
-                            <li><a href="page4.html">碩士班</a></li>
-                            <li><a href="page4.html">博士班</a></li>
+                            <li><a id="0" href="page4.html" onclick="liclick(this)">大學部</a></li>
                         </ul>
-                    </li>
-                    <li><a href="page5.html">招生資訊</a>
+                        </li>
 
+                        <li><a id="0" href="./page5.html"onclick="liclick(this)">招生資訊</a>
                         <ul>
-                            <div class="list_line"></div>
-                            <li><a href="page5.html">大學部</a></li>
-                            <li><a href="page5.html">碩士班</a></li>
-                            <li><a href="page5.html">博士班</a></li>
+                                <div class="list_line"></div>
+                            <li><a id="0" href="./page5.html"onclick="liclick(this)">大學部</a></li>
+                            <li><a id="1" href="./page5.html"onclick="liclick(this)">碩士班</a></li>
+                            <li><a id="2" href="./page5.html"onclick="liclick(this)">博士班</a></li>
                         </ul>
-                    </li>
-                </ul>
-            </div>
+                        </li>
+                    </ul>
+                </div>   
 
 
 
@@ -75,8 +74,9 @@
     <hr color="black" size="1" class="top_line">
     <div class="main">
         <div class="main_title">
+            
             <div class="main_title_text">
-                <p>課程介紹</p>
+                <p>課程資訊</p>
             </div>
             <div class="main_title_line"></div>
         </div>
@@ -85,28 +85,22 @@
                 <input id="button1" type="button" value="大學部" onclick="changeColorClick('button1','button1_t')"
                     onmouseover="changeColorOver('button1')" onmouseout="changeColorOut('button1')">
             </div>
+
+
             <div class=main_text_right id="button1_t">
                 <div class=main_text_right_title>
                     <p>大學部</p>
                 </div>
                 <div class=main_text_right_text>
                     
-                        <table>
+                        <table class="main_text_right_table_top" >
                             <tr>
                                 <th>
                                     系科所組
                                 </th>
-                                <th>
-                                    部訂共同必修學分
-                                </th>
+
                                 <th>
                                     校訂共同必修學分
-                                </th>
-                                <th>
-                                    共同選修學分
-                                </th>
-                                <th>
-                                    部訂專業必修學分
                                 </th>
                                 <th>
                                     校訂專業必修學分
@@ -126,16 +120,7 @@
                                     大學部
                                 </td>
                                 <td>
-                                    0
-                                </td>
-                                <td>
                                     33
-                                </td>
-                                <td>
-                                    0
-                                </td>
-                                <td>
-                                    0
                                 </td>
                                 <td>
                                     64
@@ -151,27 +136,29 @@
                                 </td>
                             </tr>
                         </table>
+
                         <br>
-                        <table class="table table-bordered">
+                        <table class="main_text_right_table_bottom" >
+
                             <tr>
-                                <td>
-                                    <table class="table table-bordered table-striped table-hover">
+                                <td valign="top">
+                                    <table class="main_text_right_table_bottom_item">
                                         <tr>
                                             <th colspan="4">
                                                 第1學年　第1學期
                                             </th>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="table_td_name">
                                                 課程名稱
                                             </td>
-                                            <td>
+                                            <td class="table_td_class">
                                                 類別
                                             </td>
-                                            <td>
+                                            <td class="table_td_score">
                                                 學分
                                             </td>
-                                            <td>
+                                            <td class="table_td_time"> 
                                                 時數
                                             </td>
                                         </tr>
@@ -359,24 +346,24 @@
                                         </tr>
                                     </table>
                                 </td>
-                                <td>
-                                    <table class="table table-bordered table-striped table-hover">
+                                <td valign="top">
+                                    <table class="main_text_right_table_bottom_item ">
                                         <tr>
                                             <th colspan="4">
                                                 第1學年　第2學期
                                             </th>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="table_td_name">
                                                 課程名稱
                                             </td>
-                                            <td>
+                                            <td class="table_td_class">
                                                 類別
                                             </td>
-                                            <td>
+                                            <td class="table_td_score">
                                                 學分
                                             </td>
-                                            <td>
+                                            <td class="table_td_time">
                                                 時數
                                             </td>
                                         </tr>
@@ -565,25 +552,30 @@
                                     </table>
                                 </td>
                             </tr>
+
+                        </table>
+
+                        <table class="main_text_right_table_bottom">
+
                             <tr>
-                                <td>
-                                    <table class="table table-bordered table-striped table-hover">
+                                <td valign="top">
+                                    <table class="main_text_right_table_bottom_item">
                                         <tr>
                                             <th colspan="4">
                                                 第2學年　第1學期
                                             </th>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="table_td_name">
                                                 課程名稱
                                             </td>
-                                            <td>
+                                            <td class="table_td_class">
                                                 類別
                                             </td>
-                                            <td>
+                                            <td class="table_td_score">
                                                 學分
                                             </td>
-                                            <td>
+                                            <td class="table_td_time">
                                                 時數
                                             </td>
                                         </tr>
@@ -771,24 +763,24 @@
                                         </tr>
                                     </table>
                                 </td>
-                                <td>
-                                    <table class="table table-bordered table-striped table-hover">
+                                <td valign="top">
+                                    <table class="main_text_right_table_bottom_item">
                                         <tr>
                                             <th colspan="4">
                                                 第2學年　第2學期
                                             </th>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="table_td_name">
                                                 課程名稱
                                             </td>
-                                            <td>
+                                            <td class="table_td_class">
                                                 類別
                                             </td>
-                                            <td>
+                                            <td class="table_td_score">
                                                 學分
                                             </td>
-                                            <td>
+                                            <td class="table_td_time">
                                                 時數
                                             </td>
                                         </tr>
@@ -977,25 +969,30 @@
                                     </table>
                                 </td>
                             </tr>
+
+                        </table>
+
+                        <table class="main_text_right_table_bottom">
+
                             <tr>
-                                <td>
-                                    <table class="table table-bordered table-striped table-hover">
+                                <td valign="top">
+                                    <table class="main_text_right_table_bottom_item">
                                         <tr>
                                             <th colspan="4">
                                                 第3學年　第1學期
                                             </th>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="table_td_name">
                                                 課程名稱
                                             </td>
-                                            <td>
+                                            <td class="table_td_class">
                                                 類別
                                             </td>
-                                            <td>
+                                            <td class="table_td_score">
                                                 學分
                                             </td>
-                                            <td>
+                                            <td class="table_td_time">
                                                 時數
                                             </td>
                                         </tr>
@@ -1267,24 +1264,24 @@
                                         </tr>
                                     </table>
                                 </td>
-                                <td>
-                                    <table class="table table-bordered table-striped table-hover">
+                                <td valign="top">
+                                    <table class="main_text_right_table_bottom_item">
                                         <tr>
                                             <th colspan="4">
                                                 第3學年　第2學期
                                             </th>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="table_td_name">
                                                 課程名稱
                                             </td>
-                                            <td>
+                                            <td class="table_td_class">
                                                 類別
                                             </td>
-                                            <td>
+                                            <td class="table_td_score">
                                                 學分
                                             </td>
-                                            <td>
+                                            <td class="table_td_time">
                                                 時數
                                             </td>
                                         </tr>
@@ -1543,25 +1540,30 @@
                                     </table>
                                 </td>
                             </tr>
+
+                        </table>
+
+                        <table class="main_text_right_table_bottom">
+
                             <tr>
-                                <td>
-                                    <table class="table table-bordered table-striped table-hover">
+                                <td valign="top">
+                                    <table class="main_text_right_table_bottom_item">
                                         <tr>
                                             <th colspan="4">
                                                 第4學年　第1學期
                                             </th>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="table_td_name">
                                                 課程名稱
                                             </td>
-                                            <td>
+                                            <td class="table_td_class">
                                                 類別
                                             </td>
-                                            <td>
+                                            <td class="table_td_score">
                                                 學分
                                             </td>
-                                            <td>
+                                            <td class="table_td_time">
                                                 時數
                                             </td>
                                         </tr>
@@ -1959,24 +1961,24 @@
                                         </tr>
                                     </table>
                                 </td>
-                                <td>
-                                    <table class="table table-bordered table-striped table-hover">
+                                <td valign="top">
+                                    <table class="main_text_right_table_bottom_item">
                                         <tr>
                                             <th colspan="4">
                                                 第4學年　第2學期
                                             </th>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="table_td_name">
                                                 課程名稱
                                             </td>
-                                            <td>
+                                            <td class="table_td_class">
                                                 類別
                                             </td>
-                                            <td>
+                                            <td class="table_td_score">
                                                 學分
                                             </td>
-                                            <td>
+                                            <td class="table_td_time">
                                                 時數
                                             </td>
                                         </tr>
@@ -2319,7 +2321,9 @@
                                     </table>
                                 </td>
                             </tr>
+                            
                         </table>
+
                     
                 </div>
             </div>
@@ -2338,5 +2342,5 @@
     </div>
 
 </body>
-
+<script src="../js/common.js"></script>
 </html>

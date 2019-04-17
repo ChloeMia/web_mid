@@ -22,6 +22,7 @@ body
 {
     text-decoration:none;
     color:black;
+    
 }
 /*top*/
 .top
@@ -148,7 +149,6 @@ body
 .top_item_menu ul li ul li{
     float :none;
 }
-
 
 
 .top_ul

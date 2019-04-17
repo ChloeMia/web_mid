@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../style/page2.css">
+    <link rel="stylesheet" href="../style/page5.css">
     <link rel="stylesheet" href="../style/common.css">
     <title>Document2</title>
 </head>
@@ -13,7 +13,9 @@
 
         <div class="top">
             <div class="top_item">
-                <a id="-1" href="./index.html" onclick="liclick(this)"><img class="school_logo" src="../img/ntut.png" alt="school_logo" /></a>
+                <a id="-1" href="./index.html" onclick="liclick(this)"><img
+                        class="school_logo" src="../img/ntut.png"
+                        alt="school_logo" /></a>
             </div>
 
             <div class="top_item">
@@ -27,42 +29,48 @@
 
                 <div class="top_item_menu top_menu">
                     <ul class="top_ul horizontal_ul">
-                        <li><a href="page2.html">學系介紹</a>
+                        <li><a id="0" href="page2.html" onclick="liclick(this)">學系介紹</a>
                             <ul>
                                 <div class="list_line"></div>
-                                <li><a href="page2.html">沿革與現況</a></li>
-                                <li><a href="page2.html">發展特色</a></li>
-                                <li><a href="page2.html">教育目標</a></li>
+                                <li><a id="0" href="page2.html"
+                                        onclick="liclick(this)">沿革與現況</a></li>
+                                <li><a id="1" href="page2.html"
+                                        onclick="liclick(this)">發展特色</a></li>
+                                <li><a id="2" href="page2.html"
+                                        onclick="liclick(this)">教育目標</a></li>
                             </ul>
                         </li>
-                        <li><a href="page3.html">師資介紹</a>
 
+                        <li><a id="0" href="./page3.html"
+                                onclick="liclick(this)">師資介紹</a>
                             <ul>
                                 <div class="list_line"></div>
-                                <li><a href="page3.html">專任教師</a></li>
-                                <li><a href="page3.html">兼任教師</a></li>
+                                <li><a id="0" href="page3.html"
+                                        onclick="liclick(this)">專任教師</a></li>
+                                <li><a id="1" href="page3.html"
+                                        onclick="liclick(this)">兼職教師</a></li>
                             </ul>
                         </li>
-                        <li><a href="page4.html">課程資訊</a>
 
+                        <li><a id="0" href="./page4.html"
+                                onclick="liclick(this)">課程資訊</a>
                             <ul>
                                 <div class="list_line"></div>
-                                <li><a href="page4.html">大學部</a></li>
-                                <li><a href="page4.html">碩士班</a></li>
-                                <li><a href="page4.html">博士班</a></li>
+                                <li><a id="0" href="page4.html"
+                                        onclick="liclick(this)">大學部</a></li>
                             </ul>
                         </li>
-                        <li><a id="0" href="page5.html"
-                            onclick="liclick(this)">招生資訊</a>
 
+                        <li><a id="0" href="./page5.html"
+                                onclick="liclick(this)">招生資訊</a>
                             <ul>
                                 <div class="list_line"></div>
-                                <li><a id="0" href="page5.html"
-                                    onclick="liclick(this)">大學部</a></li>
-                                <li><a id="1" href="page5.html"
-                                    onclick="liclick(this)">碩士班</a></li>
-                                <li><a id="2" href="page5.html"
-                                    onclick="liclick(this)">博士班</a></li>
+                                <li><a id="0" href="./page5.html"
+                                        onclick="liclick(this)">大學部</a></li>
+                                <li><a id="1" href="./page5.html"
+                                        onclick="liclick(this)">碩士班</a></li>
+                                <li><a id="2" href="./page5.html"
+                                        onclick="liclick(this)">博士班</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -81,8 +89,9 @@
                 </div>
                 <div class="main_title_line"></div>
             </div>
-            <div class= main_text>
-                <div class= main_text_left_buttom>
+            <div class="main_text">
+
+                <div class="main_text_left_buttom">
                     <input id="button1" type="button" value="大學部"
                         onclick="changeColorClick('button1','button1_t')"
                         onmouseover="changeColorOver('button1')"
@@ -96,457 +105,30 @@
                         onmouseover="changeColorOver('button3')"
                         onmouseout="changeColorOut('button3')">
                 </div>
-                <div class= main_text_right id="button1_t">
-                    <div class= main_text_right_title>
+
+                <div class="main_text_right" id="button1_t">
+
+                    <div class="main_text_right_title">
                         <p>大學部招生訊息</p>
                     </div>
-                    <div class=main_text_right_text>
-                        <h5 id="1" class="subtitle">【108學年度四技推甄入學資訊】</h5>
-                        <table class="table table-bordered">
+
+                    <div class="main_text_right_text">
+                        <table class="main_text_right_text_table">
                             <tbody><tr>
-                                <td>
-                                    系別
-                                </td>
-                                <td>
-                                    資訊工程系
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    甄試日期
-                                </td>
-                                <td>
-                                    108年6月21日 (星期五)
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    招生名額
-                                </td>
-                                <td>
-                                    電機與電子群電機類2名<br>
-                                    電機與電子群資電類14名、低收或中低收入戶考生：1名、離島考生：澎湖縣考生2名、金門縣考生2名
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    甄試方式
-                                </td>
-                                <td>
-                                    備審資料審查、面試
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    備審資料應繳文件
-                                </td>
-                                <td>
-                                    1.歷年成績單(含名次證明)<br>
-                                    2.自傳及讀書計畫（請註明申請姓名、申請系別，並陳述申請入學動機、學習規劃及專長培養，1000字以內）。<br>
-                                    3.其他有利資料(專題及成果作品、語文能力、競賽成果及證照、社團參與及學生幹部、特殊才能及其他有利審查資料等)。<br>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    配分及評分參考
-                                </td>
-                                <td>									 			   
-                                    1.備審資料評分：專業70%（在學成績、專題、競賽獲獎、證照）、學習能力30%（學習  規劃及專長培養）。<br>
-                                    2.面試評分：專業及問題解決能力70%、整體表現30%（表達、儀態、邏輯思維）。<br>
-                                    3.所有文件於報名時一併繳交，不接受補件。<br>
-                                    4.繳交資料概不退還，請自行備份留存。<br>
-                                </td>
-                            </tr></tbody>
-                        </table>
-                        ※更多詳情請查詢
-                        <a href="https://www.jctv.ntut.edu.tw/enter42/apply/?academicYear=108" target="_blank">108學年度四技二專甄選委員會</a>
-                        <br>
-                        <br>
-                        <br>
-
-                        <h5 id="2" class="subtitle">【108學年度四技聯合登記分發入學資訊】</h5>
-                        <table class="table table-bordered">
-                            <tbody><tr>
-                                <td>
-                                    招生方式
-                                </td>
-                                <td>
-                                    招生系組名稱
-                                </td>
-                                <td>
-                                    名額
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    聯合登記分發
-                                </td>
-                                <td>
-                                    資訊工程系
-                                </td>
-                                <td>
-                                    電機與電子群電機類1名 <br>
-                                    電機與電子群資電類:一般生15名、原住民生：1名、退伍軍人：1名、僑生：1名、境外科技人：1名、蒙藏生：1名、政府派外子女：1名
-                                </td>
-                            </tr></tbody>
-                        </table>
-                        ※更多詳情請查詢
-                        <a href="https://www.jctv.ntut.edu.tw/union42/contents.php?academicYear=108&amp;subId=91" target="_blank">108學年度四技聯合登記分發入學</a>
-                        <br>
-                        <br>
-                        <br>
-                        
-                        <h5 id="3" class="subtitle">【108學年度 高中生申請入學-電資學士班】</h5>
-                        <p>
-                            <b>本系為聯合招生</b><br>
-                            <b>寄發第二階段複試通知：</b> 本校不另寄複試報名通知，通過第一階段篩選學生，請至本校首頁點選「招生訊息」/「高中生申請入學」/「最新消息」項下列印複試報名注意事項、複試報名表及專用信封封面。<br>
-                            <b>繳交資料收件截止(郵戳為憑)：</b> 108年04月08日<br>
-                        </p>
-                        <div class="table-responsive">
-                            <table class="table table-bordered">
-                                <tbody><tr>
-                                    <td rowspan="2">校系（組）、學程資料</td>
-                                    <td colspan="3" rowspan="2">國立臺北科技大學<br>電資學士班</td>
-                                    <td colspan="2" rowspan="2">學科能力測驗成績採計方式</td>
-                                    <td rowspan="2">第二階段複試項目</td>
-                                    <td colspan="3">甄試總成績計算方式及同分參酌順序</td>
-                                </tr>
-                                <tr>
-                                    <td>甄試全部評分項目</td>
-                                    <td>佔總成績比例</td>
-                                    <td>同分參酌順序</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="2">志願代碼</td>
-                                    <td rowspan="2">104014</td>
-                                    <td rowspan="2">招生名額</td>
-                                    <td rowspan="2">56</td>
-                                    <td>科目</td>
-                                    <td>權重</td>
-                                    <td rowspan="6">書面資料審查<br>面試</td>
-                                    <td>書面資料審查</td>
-                                    <td>40%</td>
-                                    <td>1</td>
-                                </tr>
-                                <tr>
-                                    <td>國文</td>
-                                    <td>*1.00</td>
-                                    <td>學科能力測驗加權平均成績</td>
-                                    <td>20%</td>
-                                    <td>2</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="2">性別要求</td>
-                                    <td rowspan="2">未要求</td>
-                                    <td rowspan="2">預計複試人數</td>
-                                    <td rowspan="2">280</td>
-                                    <td>英文</td>
-                                    <td>*2.00</td>
-                                    <td>面試</td>
-                                    <td>40%</td>
-                                    <td>3</td>
-                                </tr>
-                                <tr>
-                                    <td>數學</td>
-                                    <td>*3.00</td>
-                                    <td>&nbsp;</td>
-                                    <td>&nbsp;</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="2">寄發第二階段複試通知</td>
-                                    <td rowspan="2">詳見「複試說明」</td>
-                                    <td rowspan="2">第二階段複試費</td>
-                                    <td rowspan="2">1000</td>
-                                    <td>社會</td>
-                                    <td>&nbsp;---</td>
-                                    <td>&nbsp;</td>
-                                    <td>&nbsp;</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>自然</td>
-                                    <td>*2.00</td>
-                                    <td>&nbsp;</td>
-                                    <td>&nbsp;</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>郵寄資格審查資料截止日期(以郵戳日期為憑)</td>
-                                    <td>108/04/08</td>
-                                    <td colspan="8">
-                                        應繳資料(請詳閱招生簡章總則第二階段複試資格審查必繳資料規定)<br>
-                                        1.學歷證件影本(必繳)<br>
-                                        2.歷年成績單正本﹝排名/班級人數/成績百分比﹞﹝應屆生應附在校前五學期成績﹞(必繳)<br>
+                                    <td class="main_text_right_text_td1">
+                                        系別
                                     </td>
-                                </tr>
-                                <tr>
-                                    <td>網路上傳書面審查資料截止日期</td>
-                                    <td>108/04/08</td>
-                                    <td colspan="8">
-                                        上傳網站：108學年度科技校院日間部四年制申請入學聯合招生委員會(https://www.jctv.ntut.edu.tw/caac/)<br>
-                                        上傳資料如下：<br>
-                                        1.自傳及讀書計畫(A4格式,請註明申請姓名,申請系別,並陳述申請入學動機,一千字以內)(必繳)<br>
-                                        2.108學年度學科能力測驗成績單影本(必繳)<br>
-                                        3.其他有利審查資料(社團參與,學生幹部,證照,競賽成果,語文能力,成果作品,特殊才能及體適能檢測成績證明書等)(選繳)<br>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>第二階段複試日期</td>
-                                    <td>108/04/20</td>
-                                    <td rowspan="3">複試說明</td>
-                                    <td colspan="7" rowspan="3">
-                                        1.本校不另寄複試通知，通過第一階段篩選學生，請至本校首頁「招生訊息」/「高中生申請入學」/「最新消息」查詢第二階段複試報名注意事項。<br>
-                                        2.第二階段採網路報名，請通過第一階段篩選學生於108.4.8（一）下午5：00前上網（https://highschool.ntut.edu.tw）登錄第二階段報名資料，另請於108.4.8（一）前將書面資格審查資料寄至本校（郵戳為憑），並至「科技校院日間部四年制申請入學聯合招生委員會」網路上傳書面審查資料（https：//www.jctv.ntut.edu.tw/caac/）。<br>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>寄發成績單日期</td>
-                                    <td>108/04/22</td>
-                                </tr>
-                                <tr>
-                                    <td>成績複查或申訴截止（郵戳為憑）</td>
-                                    <td>108/04/23</td>
-                                </tr>
-                                <tr>
-                                    <td>公告錄取名單日期</td>
-                                    <td>108/04/29</td>
-                                    <td rowspan="2">備註</td>
-                                    <td colspan="7" rowspan="2">
-                                        1.書面資料審查包含：學習及專業能力（60%）：在校成績單（附班級排名）、各類證照及競賽作品成果等足以證明學習及專業能力之資料；發展潛力（40%）：自傳及讀書計畫等足以證明發展潛力之相關資料。<br>
-                                        2.面試評分：表達能力40%、反應能力30％、組織能力30%<br>
-                                        3.本班學生大一、大二不分主修，大三起由學生依興趣選定電機工程、電子工程、資訊工程、光電工程等任一領域為主修。<br>
-                                        4.本班適合大學指定考試各類組考生申請。<br>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>是否採備取制</td>
-                                    <td>是</td>
-                                </tr></tbody>
-                            </table>
-                        </div>
-                        ※更多詳情請查詢
-                        <a href="https://www.jctv.ntut.edu.tw/caac/?academicYear=108" target="_blank">108學年度四技申請入學聯合招生委員會</a>
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-
-                    <h5 id="4" class="subtitle">【轉學考試】</h5><br>
-                    台北科技大學教務處網站　轉學考專區<br>
-                    <a href="http://www.ntut.edu.tw/~wwwoaa/entrance/university/transfer/transfer_student_0.htm" target="_blank">http://www.ntut.edu.tw/~wwwoaa/entrance/university/transfer/transfer_student_0.htm</a>
-                    <br>
-                    <br>
-                    <br>
-
-                </div>
-                
-                <div class= main_text_right id="button2_t">
-                    <div class= main_text_right_title>
-                        <p>碩士班招生訊息</p>
-                    </div>
-                    <div class=main_text_right_text>
-                        <div class="content">
-                            <h5 id="1" class="subtitle">【108學年度碩士班甄試招生簡章】 <a href="data/108Regulation.pdf">(直接下載PDF簡章)</a></h5>
-                            <div class="table-responsive">
-                                <table class="table table-bordered">
-                                    <tbody><tr>
-                                        <td>
-                                            系所別
-                                        </td>
-                                        <td colspan="2">
-                                            資訊工程系碩士班
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            報考資格之特殊規定
-                                        </td>
-                                        <td colspan="2">
-                                            <ol style="padding-left: 25px">
-                                                <li>資訊工程相關系組者，原則報考甲組。</li>
-                                                <li>非資訊工程相關系組者，原則報考乙組(歡迎並鼓勵本組學生進行人工智慧及資訊 安全領域之研究)。</li>
-                                            </ol>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            組別
-                                        </td>
-                                        <td>
-                                            甲組
-                                        </td>
-                                        <td>
-                                            乙組
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            系所組代碼
-                                        </td>
-                                        <td>
-                                            231
-                                        </td>
-                                        <td>
-                                            232
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            招生名額
-                                        </td>
-                                        <td>
-                                            36
-                                        </td>
-                                        <td>
-                                            5
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            初試直接錄取名額
-                                        </td>
-                                        <td>
-                                            至多10名
-                                        </td>
-                                        <td>
-                                            0
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            研究領域
-                                        </td>
-                                        <td colspan="2">
-                                                多媒體科技、網際網路技術及應用、軟體工程、影音訊號處理、雲端運算、巨量資料、人工智慧、電腦網路及其他資訊相關領域。
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            甄試方式
-                                        </td>
-                                        <td colspan="2">									 			   
-                                            初試（書面資料審查）、複試（面試）
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            成績計算
-                                        </td>
-                                        <td colspan="2">									 			   
-                                            <ol style="padding-left: 25px">
-                                                <li>招生名額中得依初試成績擇優直接錄取，免參加複試，其名額如「初試直接錄取名額」所示，其餘依初試成績擇優參加複試。</li>
-                                                <li>參加複試考生之初試成績僅作為參加複試（面試）之門檻，總成績依複試成績高低排序錄取。總成績同分者，以初試成績高者優先錄取。</li>
-                                            </ol>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            書面審查應繳資料
-                                        </td>
-                                        <td colspan="2">									 			   
-                                            <ol style="padding-left: 25px;">
-                                                <li>
-                                                    <strong>繳交歷年成績單正本（須附成績在班上排名及百分比）。</strong>
-                                                    <ol style="list-style-type: upper-alpha;padding-left: 25px;">
-                                                        <li>大學歷年成績單正本。</li>
-                                                        <li>轉學生另須繳交原就讀學校歷年成績單正本。</li>
-                                                        <li>二技應屆、歷屆生除二技歷年成績單外，須同時檢附專科成績單正本。</li>
-                                                        <li>以同等學力報考者，須繳交相關學力證明文件。</li>
-                                                    </ol>
-                                                </li>
-                                                <li><strong>自傳（含研究興趣及讀書計畫等）。</strong></li>
-                                                <li>
-                                                    <strong>其他有助於審查之證明文件與資料 (請以 A4 紙張裝訂成冊)，例如：</strong>
-                                                    <ol style="list-style-type: upper-alpha;padding-left: 25px;">
-                                                        <li>英文能力證明（全民英檢、TOEFL iBT、TOEIC 等）。</li>
-                                                        <li>專長證明、特殊能力等。</li>
-                                                        <li>發表之學術性文章、論文、著作、獲獎等。</li>
-                                                    </ol>
-                                                </li>
-                                            </ol>
-                                            <ul style="padding-left: 25px;">
-                                                <li>若有實作成品，請以書面方式繳交（內附相關之圖片、相片），參加面試者實作成品於面試當天攜帶至面試試場。</li>
-                                                <li>上述所有文件於報名時一併繳交，不接受補件。</li>
-                                                <li>上述所繳文件及資料，不論錄取與否概不退還。</li>
-                                            </ul>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            面試日期時間、地點
-                                        </td>
-                                        <td colspan="2">									 			   
-                                            面試日期：107 年 11 月 16 日（星期五）。<br>
-                                            請於 107 年 11 月 13 日（星期 二）起至本校碩、博士班甄試入學招生網站（https://graduate.cc.ntut.edu.tw/） 詳閱參加複試（面試）名單、時間、地點暨相關規定公告。
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            其它規定
-                                        </td>
-                                        <td colspan="2">									 			   
-                                            <ol style="padding-left: 25px">
-                                                <li>依本系「選課規定」，乙組學生須補修本系 5 門大學部基礎課程，如已修習過大學 部相關基礎課程者，得提出抵免申請，惟至多抵免 2 門課程(詳本系網址： https://csie.ntut.edu.tw/csie/Chinese/01News/file/index_s.htm )。</li>
-                                                <li>甲組備取生遞補後仍有缺額時，其招生名額流用至一般招生；乙組為「教育部培育大專校 院智慧科技(AI)及資訊安全碩士人才計畫」外加名額，本組名額不得與其他組相互流用。</li>
-                                                <li>本校自 108 學年度起設置日間部研究生英語能力畢業門檻，請至本校教務處網頁/ 相關規範/研教組查詢前項法規，並請本系網頁查閱相關規定(詳細資訊同上網址)。</li>
-                                            </ol>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            系所網址
-                                        </td>
-                                        <td colspan="2">									 			   
-                                            https://csie.ntut.edu.tw
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            系所聯絡方式
-                                        </td>
-                                        <td colspan="2">									 			   
-                                            電話：<strong>(02)2771-2171</strong>分機 <strong>4203 </strong>黃國政先生<br>
-                                            電子郵件：<strong>kchuang@csie.ntut.edu.tw </strong>
-                                        </td>
-                                    </tr>
-                                </tbody></table>
-                            </div>
-                            ※更多詳情請查詢<a href="http://graduate.cc.ntut.edu.tw/" target="_blank">台北科技大學碩士班甄試招生網站</a>
-                            <br><br><br>
-
-                            <h5 id="2" class="subtitle">【108學年度碩士班一般招生簡章】 <a href="data/108Exam.pdf">(直接下載PDF簡章)</a></h5>
-                            <table class="table table-bordered">
-                                <tbody><tr>
-                                    <td>
-                                        系所別
-                                    </td>
-                                    <td>
-                                        資訊工程系碩士班
+                                    <td class="main_text_right_text_td2"
+                                        colspan="2">
+                                        資訊工程系
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        報考資格之特殊規定
+                                        甄試日期
                                     </td>
                                     <td>
-                                        無。
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        組別
-                                    </td>
-                                    <td>
-                                        不分組
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        研究領域
-                                    </td>
-                                    <td>
-                                        多媒體科技、網際網路技術及應用、軟體工程、影音訊號處理、雲端運算、巨量資料、人工智慧、電腦網路及其他資訊相關領域。
+                                        108年6月21日 (星期五)
                                     </td>
                                 </tr>
                                 <tr>
@@ -554,58 +136,230 @@
                                         招生名額
                                     </td>
                                     <td>
-                                        28
+                                        電機與電子群電機類2名<br>
+                                        電機與電子群資電類14名、低收或中低收入戶考生：1名、離島考生：澎湖縣考生2名、金門縣考生2名
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        考試代碼
+                                        甄試方式
                                     </td>
                                     <td>
-                                        2300
+                                        備審資料審查、面試
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        考試方式
+                                        備審資料應繳文件
                                     </td>
                                     <td>
-                                        筆試科目：
-                                        <ol style="padding-left: 25px;">
-                                            <li>計算機概論</li>
-                                            <li>程式設計</li>
+                                        1.歷年成績單(含名次證明)<br>
+                                        2.自傳及讀書計畫（請註明申請姓名、申請系別，並陳述申請入學動機、學習規劃及專長培養，1000字以內）。<br>
+                                        3.其他有利資料(專題及成果作品、語文能力、競賽成果及證照、社團參與及學生幹部、特殊才能及其他有利審查資料等)。<br>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        配分及評分參考
+                                    </td>
+                                    <td>
+                                        1.備審資料評分：專業70%（在學成績、專題、競賽獲獎、證照）、學習能力30%（學習
+                                        規劃及專長培養）。<br>
+                                        2.面試評分：專業及問題解決能力70%、整體表現30%（表達、儀態、邏輯思維）。<br>
+                                        3.所有文件於報名時一併繳交，不接受補件。<br>
+                                        4.繳交資料概不退還，請自行備份留存。<br>
+                                    </td>
+                                </tr></tbody>
+                        </table>
+
+
+                    </div>
+
+                </div>
+
+                <div class="main_text_right" id="button2_t">
+
+                    <div class="main_text_right_title">
+                        <p>碩士班招生訊息</p>
+                    </div>
+
+                    <div class="main_text_right_text">
+                        <table class="main_text_right_text_table">
+                            <tbody><tr>
+                                    <td class="main_text_right_text_td1">
+                                        系所別
+                                    </td>
+                                    <td class="main_text_right_text_td2"
+                                        colspan="2">
+                                        資訊工程系碩士班
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        報考資格之特殊規定
+                                    </td>
+                                    <td colspan="2">
+                                        <ol style="padding-left:
+                                            25px">
+                                            <li>資訊工程相關系組者，原則報考甲組。</li>
+                                            <li>非資訊工程相關系組者，原則報考乙組(歡迎並鼓勵本組學生進行人工智慧及資訊
+                                                安全領域之研究)。</li>
                                         </ol>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        成績計分比例
+                                        組別
                                     </td>
-                                    <td>									 			   
-                                        總成績為筆試科目成績之平均。
+                                    <td>
+                                        甲組
+                                    </td>
+                                    <td>
+                                        乙組
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        考試日期
+                                        系所組代碼
                                     </td>
-                                    <td>									 			   
-                                        筆試日期：108年03月10日（星期日）。
+                                    <td>
+                                        231
+                                    </td>
+                                    <td>
+                                        232
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        其他規定
+                                        招生名額
                                     </td>
-                                    <td>									 			   
-                                        本校自108學年度起設置日間部研究生英語能力畢業門檻，請至本校教務處網頁/相關規範/研教組查詢前項法規，並請至本系網頁查閱相關規定。
+                                    <td>
+                                        36
+                                    </td>
+                                    <td>
+                                        5
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        初試直接錄取名額
+                                    </td>
+                                    <td>
+                                        至多10名
+                                    </td>
+                                    <td>
+                                        0
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        研究領域
+                                    </td>
+                                    <td colspan="2">
+                                        多媒體科技、網際網路技術及應用、軟體工程、影音訊號處理、雲端運算、巨量資料、人工智慧、電腦網路及其他資訊相關領域。
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        甄試方式
+                                    </td>
+                                    <td colspan="2">
+                                        初試（書面資料審查）、複試（面試）
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        成績計算
+                                    </td>
+                                    <td colspan="2">
+                                        <ol style="padding-left:
+                                            25px">
+                                            <li>招生名額中得依初試成績擇優直接錄取，免參加複試，其名額如「初試直接錄取名額」所示，其餘依初試成績擇優參加複試。</li>
+                                            <li>參加複試考生之初試成績僅作為參加複試（面試）之門檻，總成績依複試成績高低排序錄取。總成績同分者，以初試成績高者優先錄取。</li>
+                                        </ol>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        書面審查應繳資料
+                                    </td>
+                                    <td colspan="2">
+                                        <ol style="padding-left:
+                                            25px;">
+                                            <li>
+                                                <strong>繳交歷年成績單正本（須附成績在班上排名及百分比）。</strong>
+                                                <ol
+                                                    style="list-style-type:
+                                                    upper-alpha;padding-left:
+                                                    25px;">
+                                                    <li>大學歷年成績單正本。</li>
+                                                    <li>轉學生另須繳交原就讀學校歷年成績單正本。</li>
+                                                    <li>二技應屆、歷屆生除二技歷年成績單外，須同時檢附專科成績單正本。</li>
+                                                    <li>以同等學力報考者，須繳交相關學力證明文件。</li>
+                                                </ol>
+                                            </li>
+                                            <li><strong>自傳（含研究興趣及讀書計畫等）。</strong></li>
+                                            <li>
+                                                <strong>其他有助於審查之證明文件與資料
+                                                    (請以 A4
+                                                    紙張裝訂成冊)，例如：</strong>
+                                                <ol
+                                                    style="list-style-type:
+                                                    upper-alpha;padding-left:
+                                                    25px;">
+                                                    <li>英文能力證明（全民英檢、TOEFL
+                                                        iBT、TOEIC
+                                                        等）。</li>
+                                                    <li>專長證明、特殊能力等。</li>
+                                                    <li>發表之學術性文章、論文、著作、獲獎等。</li>
+                                                </ol>
+                                            </li>
+                                        </ol>
+                                        <ul style="padding-left:
+                                            25px;">
+                                            <li>若有實作成品，請以書面方式繳交（內附相關之圖片、相片），參加面試者實作成品於面試當天攜帶至面試試場。</li>
+                                            <li>上述所有文件於報名時一併繳交，不接受補件。</li>
+                                            <li>上述所繳文件及資料，不論錄取與否概不退還。</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        面試日期時間、地點
+                                    </td>
+                                    <td colspan="2">
+                                        面試日期：107 年 11 月 16 日（星期五）。<br>
+                                        請於 107 年 11 月 13 日（星期
+                                        二）起至本校碩、博士班甄試入學招生網站（https://graduate.cc.ntut.edu.tw/）
+                                        詳閱參加複試（面試）名單、時間、地點暨相關規定公告。
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        其它規定
+                                    </td>
+                                    <td colspan="2">
+                                        <ol style="padding-left:
+                                            25px">
+                                            <li>依本系「選課規定」，乙組學生須補修本系
+                                                5 門大學部基礎課程，如已修習過大學
+                                                部相關基礎課程者，得提出抵免申請，惟至多抵免
+                                                2 門課程(詳本系網址：
+                                                https://csie.ntut.edu.tw/csie/Chinese/01News/file/index_s.htm
+                                                )。</li>
+                                            <li>甲組備取生遞補後仍有缺額時，其招生名額流用至一般招生；乙組為「教育部培育大專校
+                                                院智慧科技(AI)及資訊安全碩士人才計畫」外加名額，本組名額不得與其他組相互流用。</li>
+                                            <li>本校自 108
+                                                學年度起設置日間部研究生英語能力畢業門檻，請至本校教務處網頁/
+                                                相關規範/研教組查詢前項法規，並請本系網頁查閱相關規定(詳細資訊同上網址)。</li>
+                                        </ol>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
                                         系所網址
                                     </td>
-                                    <td>									 			   
+                                    <td colspan="2">
                                         https://csie.ntut.edu.tw
                                     </td>
                                 </tr>
@@ -613,311 +367,173 @@
                                     <td>
                                         系所聯絡方式
                                     </td>
-                                    <td>									 			   
-                                        電話：<strong>(02)2771-2171</strong>分機 <strong>4203 </strong>黃國政先生<br>
-                                        電子郵件：<strong>kchuang@csie.ntut.edu.tw </strong>
+                                    <td colspan="2">
+                                        電話：<strong>(02)2771-2171</strong>分機
+                                        <strong>4203 </strong>黃國政先生<br>
+                                        電子郵件：<strong>kchuang@csie.ntut.edu.tw
+                                        </strong>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                    </div>
+
+                </div>
+
+                <div class="main_text_right" id="button3_t">
+
+                    <div class="main_text_right_title">
+                        <p>博士班招生訊息</p>
+                    </div>
+
+                    <div class="main_text_right_text">
+                        <table class="main_text_right_text_table">
+                            <tbody><tr>
+                                    <td class="main_text_right_text_td1">
+                                        系所別
+                                    </td>
+                                    <td class="main_text_right_text_td2"
+                                        colspan="2">
+                                        資訊工程系博士班
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        報考資格特殊規定
+                                    </td>
+                                    <td colspan="2">
+                                        無
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        組別
+                                    </td>
+                                    <td colspan="2">
+                                        <strong>不分組</strong>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        研究領域
+                                    </td>
+                                    <td colspan="2">
+                                        多媒體科技、網際網路技術及應用、軟體工程、影音訊號處理、雲端運算、巨量資料、人工智慧、電腦網路及其他資訊相關領域
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2">
+                                        招生名額
+                                    </td>
+                                    <td>
+                                        <strong>學術導向</strong>
+                                    </td>
+                                    <td>
+                                        <strong>技術導向</strong>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <strong>2</strong>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        考試代碼
+                                    </td>
+                                    <td colspan="2">
+                                        <strong>2300</strong>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        考試方式
+                                    </td>
+                                    <td colspan="2">
+                                        1.書面資料審查<br>
+                                        2.面試
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        成績計分方式
+                                    </td>
+                                    <td colspan="2">
+                                        總成績滿分為100分，書面資料審查、面試各占50％。總成績相同時，依序以面試、書面資料審查成績高低順序擇優錄取。
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        考試日期時間
+                                    </td>
+                                    <td colspan="2">
+                                        面試日期：<strong>108年05月09日（星期四）</strong><br>
+                                        請於108年05月01日（星期三）起至本校博士班甄試入學招生網站
+                                        (http://graduate.cc.ntut.edu.tw/)詳閱參加面試名單、時間、地點暨相關規定公告。
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        書面審查資料
+                                    </td>
+                                    <td colspan="2">
+                                        1.師長推薦函二封。<br>
+                                        2.自傳及研究計畫、大專（含）以上歷年在學成績單正本。<br>
+                                        3.碩士論文、國內外發表論文、研究計畫、特殊能力及專長之證明文件影本（面試當天需攜帶正本核對）。<br>
+                                        4.若有實作成品請以書面方式繳交（內附相關之圖片、相片），實作成品於面試當天再攜帶至試場。<br>
+                                        5.所有文件於報名時一併繳交。<br>
+                                        6.若以同等學力或國外學歷報考者，另請檢附符合報考資格之相關證明文件影本。
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        其他規定
+                                    </td>
+                                    <td colspan="2">
+                                        1.本系學術導向、技術導向名額合併招生，各導向錄取名額及錄取標準由審查委員綜合考量評定，並經提招生委員會決議後通過。<br>
+                                        2.本系博士班學生經錄取就讀後，仍可依本系博士班修業相關規定更改學術導向或技術導向之就讀身分。<br>
+                                        3.本校自108學年度起設置日間部研究生英語能力畢業門檻，請至本校教務處網頁/相關規範/查詢前項法規，並請至本系網頁查閱研究生英文畢業門檻相關規定(詳本系網址：https://csie.ntut.edu.tw/csie/Chinese/01News/file/index_d108.htm)。
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        系所聯絡方式
+                                    </td>
+                                    <td colspan="2">
+                                        電話：<strong>(02)2771-2171</strong>分機
+                                        <strong>4203 </strong>黃國政先生<br>
+                                        電子郵件：<strong>kchuang@csie.ntut.edu.tw
+                                        </strong><br>
+                                        網址:
+                                        https://csie.ntut.edu.tw
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
                                         研究及發展重點
                                     </td>
-                                    <td>									 			   
-                                            本系以「軟體系統」、「多媒體系統」與「網路系統」等三大特色研究領域為核心，並搭配IT最新發展趨勢(如巨量資料、人工智慧、資訊安全等)，發展兼具實用性與前瞻性的資訊科技，畢業學生普獲業界好評。<br>
-                                            <b><u>軟體系統</u></b><br>
-                                             本系以物件導向技術為基礎，研發元件式軟體，並運用設計樣式（Design Patterns）發展軟體應用架構（Application Frameworks）與軟體工程技術。相關研究實驗室有「軟體系統實驗室」、「軟體工程實驗室」、「軟體開發與測試實驗室」、「智慧型系統實驗室」等。<br>
-                                            <b><u>多媒體系統</u></b><br>
-                                             本系「多媒體系統與傳輸」研發團隊，專研多媒體編解碼、傳輸與整合，積極開發各項關鍵技術與前瞻系統。相關研究實驗室有「視訊編碼與傳輸實驗室」、「音訊信號處理實驗室」、「多媒體資訊與技術整合實驗室」、「計算機圖學實驗室」、「互動媒體實驗室」、「生醫資訊實驗室」等。<br>
-                                            <b><u>網路系統</u></b><br>
-                                             本系「無線及寬頻網路系統」研發團隊，專研行動計算、感測網路系統、無線區域網路及隨意網路、高速網路存取及路由機制、通訊網路資源配置與效能評估等研究主題。相關研究實驗室有「無線與寬頻網路實驗室」、「網際網路應用與服務實驗室」、「應用計算實驗室」、「網路資訊檢索實驗室」等。
+                                    <td colspan="2">
+                                        本系以「軟體系統」、「多媒體系統」與「網路系統」等三大特色研究領域為核心，並搭配IT最新發展趨勢(如巨量資料、人工智慧、資訊安全等)，發展兼具實用性與前瞻性的資訊科技，畢業學生普獲業界好評。<br>
+                                        <b><u>軟體系統</u></b><br>
+                                        本系以物件導向技術為基礎，研發元件式軟體，並運用設計樣式（Design
+                                        Patterns）發展軟體應用架構（Application
+                                        Frameworks）與軟體工程技術。相關研究實驗室有「軟體系統實驗室」、「軟體工程實驗室」、「軟體開發與測試實驗室」、「智慧型系統實驗室」等。<br>
+                                        <b><u>多媒體系統</u></b><br>
+                                        本系「多媒體系統與傳輸」研發團隊，專研多媒體編解碼、傳輸與整合，積極開發各項關鍵技術與前瞻系統。相關研究實驗室有「視訊編碼與傳輸實驗室」、「音訊信號處理實驗室」、「多媒體資訊與技術整合實驗室」、「計算機圖學實驗室」、「互動媒體實驗室」、「生醫資訊實驗室」等。<br>
+                                        <b><u>網路系統</u></b><br>
+                                        本系「無線及寬頻網路系統」研發團隊，專研行動計算、感測網路系統、無線區域網路及隨意網路、高速網路存取及路由機制、通訊網路資源配置與效能評估等研究主題。相關研究實驗室有「無線與寬頻網路實驗室」、「網際網路應用與服務實驗室」、「應用計算實驗室」、「網路資訊檢索實驗室」等。
                                     </td>
                                 </tr>
-                            </tbody></table>
-                            ※更多詳情請查詢<a href="http://graduate.cc.ntut.edu.tw/" target="_blank">台北科技大學碩士班一般生招生網站</a>
-                            <br><br><br>
-                        </div>
+                            </tbody>
+                        </table>
+
+
                     </div>
 
                 </div>
-                <div class= main_text_right id="button3_t">
-                    <div class= main_text_right_title>
-                        <p>博士班招生訊息</p>
-                    </div>
-                    <div class=main_text_right_text>
-                            <div class="content">
-                                <h5 id="1" class="subtitle">【108學年度研究所博士班一般招生公告】</h5>
-                                <table class="table table-bordered">
-                                    <tbody><tr>
-                                        <td>
-                                            系所別
-                                        </td>
-                                        <td colspan="2">
-                                            資訊工程系博士班
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            報考資格特殊規定
-                                        </td>
-                                        <td colspan="2">
-                                            無
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            組別
-                                        </td>
-                                        <td colspan="2">
-                                            <strong>不分組</strong>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            研究領域
-                                        </td>
-                                        <td colspan="2">
-                                            多媒體科技、網際網路技術及應用、軟體工程、影音訊號處理、雲端運算、巨量資料、人工智慧、電腦網路及其他資訊相關領域
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">
-                                            招生名額
-                                        </td>
-                                        <td>
-                                            <strong>學術導向</strong>
-                                        </td>
-                                        <td>
-                                            <strong>技術導向</strong>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="2">
-                                            <strong>2</strong>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            考試代碼
-                                        </td>
-                                        <td colspan="2">
-                                            <strong>2300</strong>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            考試方式
-                                        </td>
-                                        <td colspan="2">
-                                            1.書面資料審查<br>
-                                            2.面試
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            成績計分方式
-                                        </td>
-                                        <td colspan="2">
-                                            總成績滿分為100分，書面資料審查、面試各占50％。總成績相同時，依序以面試、書面資料審查成績高低順序擇優錄取。
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            考試日期時間
-                                        </td>
-                                        <td colspan="2">									 			   
-                                            面試日期：<strong>108年05月09日（星期四）</strong><br>
-                                            請於108年05月01日（星期三）起至本校博士班甄試入學招生網站 (http://graduate.cc.ntut.edu.tw/)詳閱參加面試名單、時間、地點暨相關規定公告。
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            書面審查資料
-                                        </td>
-                                        <td colspan="2">									 			   
-                                            1.師長推薦函二封。<br>
-                                            2.自傳及研究計畫、大專（含）以上歷年在學成績單正本。<br>
-                                            3.碩士論文、國內外發表論文、研究計畫、特殊能力及專長之證明文件影本（面試當天需攜帶正本核對）。<br>
-                                            4.若有實作成品請以書面方式繳交（內附相關之圖片、相片），實作成品於面試當天再攜帶至試場。<br>
-                                            5.所有文件於報名時一併繳交。<br>
-                                            6.若以同等學力或國外學歷報考者，另請檢附符合報考資格之相關證明文件影本。
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            其他規定
-                                        </td>
-                                        <td colspan="2">									 			   
-                                            1.本系學術導向、技術導向名額合併招生，各導向錄取名額及錄取標準由審查委員綜合考量評定，並經提招生委員會決議後通過。<br>
-                                            2.本系博士班學生經錄取就讀後，仍可依本系博士班修業相關規定更改學術導向或技術導向之就讀身分。<br>
-                                            3.本校自108學年度起設置日間部研究生英語能力畢業門檻，請至本校教務處網頁/相關規範/查詢前項法規，並請至本系網頁查閱研究生英文畢業門檻相關規定(詳本系網址：https://csie.ntut.edu.tw/csie/Chinese/01News/file/index_d108.htm)。
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            系所聯絡方式
-                                        </td>
-                                        <td colspan="2">									 			   
-                                            電話：<strong>(02)2771-2171</strong>分機 <strong>4203 </strong>黃國政先生<br>
-                                            電子郵件：<strong>kchuang@csie.ntut.edu.tw </strong><br>
-                                            網址: https://csie.ntut.edu.tw
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            研究及發展重點
-                                        </td>
-                                        <td colspan="2">									 			   
-                                                本系以「軟體系統」、「多媒體系統」與「網路系統」等三大特色研究領域為核心，並搭配IT最新發展趨勢(如巨量資料、人工智慧、資訊安全等)，發展兼具實用性與前瞻性的資訊科技，畢業學生普獲業界好評。<br>
-                                                <b><u>軟體系統</u></b><br>
-                                                 本系以物件導向技術為基礎，研發元件式軟體，並運用設計樣式（Design Patterns）發展軟體應用架構（Application Frameworks）與軟體工程技術。相關研究實驗室有「軟體系統實驗室」、「軟體工程實驗室」、「軟體開發與測試實驗室」、「智慧型系統實驗室」等。<br>
-                                                <b><u>多媒體系統</u></b><br>
-                                                 本系「多媒體系統與傳輸」研發團隊，專研多媒體編解碼、傳輸與整合，積極開發各項關鍵技術與前瞻系統。相關研究實驗室有「視訊編碼與傳輸實驗室」、「音訊信號處理實驗室」、「多媒體資訊與技術整合實驗室」、「計算機圖學實驗室」、「互動媒體實驗室」、「生醫資訊實驗室」等。<br>
-                                                <b><u>網路系統</u></b><br>
-                                                 本系「無線及寬頻網路系統」研發團隊，專研行動計算、感測網路系統、無線區域網路及隨意網路、高速網路存取及路由機制、通訊網路資源配置與效能評估等研究主題。相關研究實驗室有「無線與寬頻網路實驗室」、「網際網路應用與服務實驗室」、「應用計算實驗室」、「網路資訊檢索實驗室」等。
-                                        </td>
-                                    </tr>
-                                </tbody></table>
-                                ※更多詳情請查詢<a href="https://graduate.ntut.edu.tw/" target="_blank">台北科技大學博士班招生網站</a>
-                                <br><br><br>
-                                
-                                <h5 id="2" class="subtitle">【108學年度研究所博士班甄試入學招生公告】</h5>
-                                <table class="table table-bordered">
-                                    <tbody><tr>
-                                        <td>
-                                            系所別
-                                        </td>
-                                        <td>
-                                            資訊工程系博士班
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            報考資格特殊規定
-                                        </td>
-                                        <td>
-                                            無
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            組別
-                                        </td>
-                                        <td>
-                                            不分組
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            研究領域
-                                        </td>
-                                        <td>
-                                            多媒體科技、網際網路技術及應用、軟體工程、影音訊號處理、雲端運算、巨量資料、人工智慧、電腦網路及其他資訊相關領域。
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            招生名額
-                                        </td>
-                                        <td>		
-                                            學術導向與技術導向 共2名
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            初試直接錄取名額
-                                        </td>
-                                        <td>
-                                            0
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            考試代碼
-                                        </td>
-                                        <td>
-                                            2300
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            考試方式
-                                        </td>
-                                        <td>
-                                            1.初試(書面資料審查)<br>
-                                            2.複試(面試)
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            成績計分方式
-                                        </td>
-                                        <td>									 			   
-                                            總成績滿分為 100 分，書面資料審查、面試各占 50％。總成績相同時，依序以面試、書面資料審查成績高低順序擇優錄取。
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            考試日期時間
-                                        </td>
-                                        <td>									 			   
-                                            面試日期：<strong>107 年 11 月 15 日（星期四）</strong><br>
-                                            請於 107 年 11 月 13 日（星期二）起至本校碩、博士班甄試入學招生網站（https://graduate.cc.ntut.edu.tw/）詳閱參加複試（面試)名單、時間、地點暨相關規定公告。
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            書面審查資料
-                                        </td>
-                                        <td>									 			   
-                                            1.師長推薦函二封。<br>
-                                            2.自傳及研究計畫、大專（含）以上歷年在學成績單正本。<br>
-                                            3.碩士論文、國內外發表論文、研究計畫、特殊能力及專長之證明文件影本（面試當天需攜帶正本核對）。<br>
-                                            4.若有實作成品請以書面方式繳交（內附相關之圖片、相片），實作成品於面試當天再攜帶至試場。<br>
-                                            5.所有文件於報名時一併繳交。<br>
-                                            6.若以同等學力或國外學歷報考者，另請檢附符合報考資格之相關證明文件影本。
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            其他規定
-                                        </td>
-                                        <td>									 			   
-                                            1.本系學術導向、技術導向名額合併招生，各導向錄取名額及錄取標準由審查委員綜合考量評定，並經提招生委員會決議後通過。<br>
-                                            2.本系博士班學生經錄取就讀後，仍可依本系博士班修業相關規定更改學術導向或技術導向之就讀身分。<br>
-                                            3.本校自 108 學年度起設置日間部研究生英語能力畢業門檻，請至本校教務處網頁/相關 規範/研教組查詢前項法規，並請至本系網頁查閱相關規定。
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            系所聯絡方式
-                                        </td>
-                                        <td>									 			   
-                                            電話：<strong>(02)2771-2171</strong>分機 <strong>4203 </strong>黃國政先生<br>
-                                            電子郵件：<strong>kchuang@csie.ntut.edu.tw </strong> <br>
-                                            網址: https://csie.ntut.edu.tw
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            研究及發展重點
-                                        </td>
-                                        <td>									 			   
-                                                本系以「軟體系統」、「多媒體系統」與「網路系統」等三大特色研究領域為核心，並搭配IT最新發展趨勢(如巨量資料、人工智慧、資訊安全等)，發展兼具實用性與前瞻性的資訊科技，畢業學生普獲業界好評。<br>
-                                                <b><u>軟體系統</u></b><br>
-                                                 本系以物件導向技術為基礎，研發元件式軟體，並運用設計樣式（Design Patterns）發展軟體應用架構（Application Frameworks）與軟體工程技術。相關研究實驗室有「軟體系統實驗室」、「軟體工程實驗室」、「軟體開發與測試實驗室」、「智慧型系統實驗室」等。<br>
-                                                <b><u>多媒體系統</u></b><br>
-                                                 本系「多媒體系統與傳輸」研發團隊，專研多媒體編解碼、傳輸與整合，積極開發各項關鍵技術與前瞻系統。相關研究實驗室有「視訊編碼與傳輸實驗室」、「音訊信號處理實驗室」、「多媒體資訊與技術整合實驗室」、「計算機圖學實驗室」、「互動媒體實驗室」、「生醫資訊實驗室」等。<br>
-                                                <b><u>網路系統</u></b><br>
-                                                 本系「無線及寬頻網路系統」研發團隊，專研行動計算、感測網路系統、無線區域網路及隨意網路、高速網路存取及路由機制、通訊網路資源配置與效能評估等研究主題。相關研究實驗室有「無線與寬頻網路實驗室」、「網際網路應用與服務實驗室」、「應用計算實驗室」、「網路資訊檢索實驗室」等。
-                                        </td>
-                                    </tr>
-                                </tbody></table>
-                                ※更多詳情請查詢<a href="https://graduate.ntut.edu.tw/" target="_blank">台北科技大學博士班招生網站</a>
-                                <br><br><br>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
         <div class="bottom">
@@ -925,7 +541,8 @@
                 InformationEngineering @2019
             </p>
             <p>
-                10608 台北市忠孝東路三段一號系辦位置 系辦位置 : 科技大樓三樓 331室 聯絡電話 : (02)2771-2171
+                10608 台北市忠孝東路三段一號系辦位置 系辦位置 : 科技大樓三樓 331室 聯絡電話 :
+                (02)2771-2171
                 轉4200 傳真 : (02)8773-2945
             </p>
 
@@ -933,6 +550,5 @@
         </div>
 
     </body>
-    <script src="../js/page2_js.js"></script>
     <script src="../js/common.js"></script>
 </html>

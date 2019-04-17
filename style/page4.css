@@ -78,3 +78,51 @@
     font-weight: bold;
     color:#000000;
 }
+.main_text_right_table_top
+{
+    border: 1px black solid;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+.main_text_right_table_top th
+{
+    border-bottom: 2px black solid;
+    
+}
+.main_text_right_table_bottom 
+{
+    border: 2px black solid;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+.main_text_right_table_bottom th
+{
+    border-bottom: 2px black solid;
+    
+}
+.main_text_right_table_bottom_item
+{
+    width: 100%;
+}
+.main_text_right_table_bottom td
+{
+    height: 20%;
+}
+.table_td_name
+{
+    width: 50%;
+}
+.table_td_class
+{
+    width: 10%;
+}
+.table_td_score
+{
+    width: 20%;
+}
+.table_td_time
+{
+    width: 20%;
+}
