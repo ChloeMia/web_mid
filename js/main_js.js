@@ -9,11 +9,12 @@ function change(id)
         if(id == alltitle[i])
         {
             tab.style.display = "table";
-            d.style.backgroundColor = "rgb(56, 187, 248)"
+            d.style.color = "white";
         }
-        else{
+        else
+        {
             tab.style.display = "none";
-            d.style.backgroundColor = "rgb(167, 226, 253)"
+            d.style.color = "black";
         }
     }
 }

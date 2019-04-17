@@ -251,9 +251,7 @@ body
     text-align: center;
     
 }
-.main_right_menu div:hover{
-    background-color:  rgb(167, 226, 253);
-}
+
 
 .main_right_ul
 {
@@ -262,17 +260,9 @@ body
     background-color:rgb(181, 232, 255);
 }
 
-.main_right_ul div:hover
-{
-    background-color:rgb(136, 211, 247);
-}
-
-.main_right_menu div{
-    background-color: rgb(167, 226, 253);
-}
 #div_allnew
 {
-    background-color: rgb(56, 187, 248);
+    color: white;
     border-top-left-radius:10px;
 }
 #allnew
@@ -300,6 +290,8 @@ body
     border-bottom: 1px rgb(91, 196, 245) solid;
     font-size: 20px;
     padding: 10px;
+    font-family: Microsoft JhengHei;
+    font-weight: bold;
 }
 .main_right_content_table_day
 {
