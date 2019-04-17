@@ -9,11 +9,8 @@ function changeColorClick(id,id2)
     for (var i = 0; i < allbutton.length; i++) {
         var b = document.getElementById(allbutton[i]);
         var t = document.getElementById(alltext[i]);
-        if(b != null && t != null){
-            b.style.backgroundColor = hoverBefore;
-            t.style.display = "none";
-        }
-        
+        b.style.backgroundColor = hoverBefore;
+        t.style.display = "none";
     }
     var x = document.getElementById(id);
     var y = document.getElementById(id2);
